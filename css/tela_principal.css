@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4%;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    border-top: 0.2rem solid black;
+    background-color: white;
+}
+
+.menu{
+    margin: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Economia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.botoes-grafico{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20%;
+}
+
+.informacao_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 10%;
+}
+
+.meta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_voltar{
+    height: 1rem;
+    width: 1.9rem;
+}
+
+.img_suporte{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.img_grafico{
+    height: 20rem;
+    width: 20rem;
+}
+
+.img_grafico_setor{
+    height: 5.15rem;
+    width: 5.15rem;
+}
+
+.img_contratos{
+    height: 1.9rem;
+    width: 1.9rem; 
+}
+
+.img_home_clicado{
+    height: 1.9rem;
+    width: 1.9rem; 
+}
+
+.img_perfil{
+    height: 1.9rem;
+    width: 1.9rem; 
+}
