@@ -10,10 +10,6 @@ header{
     top: 0%;
 }
 
-main{
-    margin-bottom: 50%;
-}
-
 footer{
     position: fixed;
     bottom: 0%;
@@ -78,36 +74,36 @@ footer{
 }
 
 .img_voltar{
-    height: 15px;
-    width: 29px;
+    height: 1rem;
+    width: 1.9rem;
 }
 
 .img_suporte{
-    height: 27px;
-    width: 27px;
+    height: 1.7rem;
+    width: 1.7rem;
 }
 
 .img_grafico{
-    height: 96%;
-    width: 96%;
+    height: 20rem;
+    width: 20rem;
 }
 
 .img_grafico_setor{
-    height: 85px;
-    width: 85px;
+    height: 5.15rem;
+    width: 5.15rem;
 }
 
 .img_contratos{
-    height: 32px;
-    width: 32px; 
+    height: 1.9rem;
+    width: 1.9rem; 
 }
 
 .img_home_clicado{
-    height: 32px;
-    width: 32px; 
+    height: 1.9rem;
+    width: 1.9rem; 
 }
 
 .img_perfil{
-    height: 32px;
-    width: 32px; 
+    height: 1.9rem;
+    width: 1.9rem; 
 }
