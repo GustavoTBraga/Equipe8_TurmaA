@@ -1,69 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <title>Ereon</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
-            <a href="#">
-                <img src="../img/Inicador_Voltar.png" alt="voltar">
-            </a>
-            <a href="#">
-                <img src="../img/Indicador_Suporte.png" alt="info">
-            </a>
-        </header>
-        <main>
-            <section>
-                <h3>
-                    Economia
-                </h3>
-                <h4>
-                    R$ 10.239,00
-                </h4>
-            </section>
-
-
-            <button type="button">
-                Dia
-            </button>
-            <button type="button">
-                Semana
-            </button>
-            <button type="button">
-                Mês
-            </button>
-            <button type="button">
-                Ano
-            </button>
-            <img src="../img/gráfico.png" alt="gráfico">
-
-            <p> 
-                Meta para 2023 CONCLUÍDO
-            </p>
-            <img src="../img/gráfico_pizza.png" alt="gráfico de pizza">
-
-        </main>
-        <footer>
-            <section>
-                <a href="tela_produto_pessoal.html">
-                    <img src="../img/Contratos.png" alt="contratos">
-                    <h6> Contratos </h6>
-                </a>
-            </section>
-            <section>
-                <a href="tela_principal.html">
-                    <img src="../img/Indicador_Incio.png" alt="início">
-                    <h6> Início </h6>
-                </a>
-            </section>
-            <section>
-                <a href="tela_perfil.html">
-                    <img src="../img/Icone_perfil.png" alt="Perfil">
-                    <h6> Perfil </h6>
-                </a>
-            </section>
-        </footer>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img class="img_voltar" src="img/img_voltar.png" alt=""></a>
+        <a href="#"><img class="img_suporte" src="img/img_suporte.png" alt=""></a>
+    </header>
+    <main>
+        <section class="Economia">
+            <h1>Economia</h1>
+            <h2>R$ 10.239,00</h2>
+        </section>
+        <div class="grafico">
+            <div class="botoes-grafico">
+                <button>Dia</button>
+                <button>Semana</button>
+                <button>Mês</button>
+                <button>Ano</button>
+            </div>
+            <img class="img_grafico" src="img/img_grafico.png" alt="">
+        </div>
+        <div class="informacao_2">
+                <section class="meta">
+                    <p>Meta para 2023</p>
+                    <h2>CONCLUÍDO</h2>
+                </section>
+            <img class="img_grafico_setor" src="img/img_grafico_setor.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <nav class="menu">
+            <a href="#"><img class="img_contratos" src="img/img_contratos.png" alt=""></a>
+            <a href="#"><img class="img_home_clicado" src="img/img_home_clicado.png" alt=""></a>
+            <a href="#"><img class="img_perfil" src="img/img_perfil.png" alt=""></a>
+        </nav>
+    </footer>
+</body>
 </html>
