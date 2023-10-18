@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+label{
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    font-size: larger;
+}
+
+input{
+
+    margin-bottom: 0.5rem;
+    border: black 0.1rem solid;
+    width: 100%;
+    height: 2rem;
+    border-radius: 8%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 10%;
+}
+
+.a_footer{
+    border: 0.1rem black solid;
+    border-radius: 10%;
+    padding: 0.5rem;
+
+
+}
+
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: larger;
+}
+
+button{
+    height: 5rem;
+    font-size: larger;
+    border: 0.1rem solid black;
+    border-radius: 8%;
+}

@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-de-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20rem;
+    width: 20rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    padding: 1.5rem;
+    height: 3rem;
+    background-color: white;
+}
+
+.icone-voltar {
+    height: 1rem;
+    width: 2rem;
+}
+
+.icone-suporte {
+    height: 2rem;
+    width: 2rem;
+}
+
+.icones-navegação {
+    height: 2rem;
+    width: 2rem;
+}
+
+.botões-navegação {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-botões {
+    height: 2rem;
+    width: 2rem;
+}
+
+.info-conta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: lightgray;
+    border-radius: 5rem;
+    margin: 1rem;
+    height: 2.5rem;
+    width: 20rem;
+    font-size: 2rem;
+}
