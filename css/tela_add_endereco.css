@@ -1,15 +1,25 @@
-header{
+header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem;
+    background-color: white;
+    z-index: 1;
 }
 
 main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 1rem;
+    margin: 1.5rem;
+    position: relative;
+    top: 5rem;
 }
 
 label{
@@ -25,7 +35,7 @@ input{
     border: black 0.1rem solid;
     width: 100%;
     height: 2rem;
-    border-radius: 8%;
+    border-radius: 0.5rem;
 }
 
 footer{
@@ -40,9 +50,9 @@ footer{
 
 .a_footer{
     border: 0.1rem black solid;
-    border-radius: 10%;
+    border-radius: 0.5rem;
     padding: 0.5rem;
-
+    font-size: 1.5rem;
 
 }
 
@@ -59,5 +69,15 @@ button{
     height: 5rem;
     font-size: larger;
     border: 0.1rem solid black;
-    border-radius: 8%;
+    border-radius: 0.5rem;
+}
+
+.icone-voltar{
+    height: 1rem;
+    width: 2rem;
+}
+
+.icone-suporte{
+    height: 2rem;
+    width: 2rem;
 }
