@@ -1,0 +1,58 @@
+header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem;
+    background-color: white;
+    z-index: 1;
+}
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+    position: relative;
+    
+}
+
+.icone-sucesso{
+    max-height: 10rem;
+    max-width: 10rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 4rem;
+
+
+
+}
+
+.icone-voltar{
+    height: 1rem;
+    width: 2rem;
+}
+
+.icone-suporte{
+    height: 2rem;
+    width: 2rem;
+}
