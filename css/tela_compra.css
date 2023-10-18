@@ -1,0 +1,79 @@
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+    position: relative;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4%;
+}
+
+.botao_download{
+    height: 2rem;
+    width: 20rem;
+    margin-top: 2%;
+    background-color: lightgrey;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_alterar_pagamento{
+    height: 3rem;
+    width: 9.5rem;
+    background-color: lightgray;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_finalizar_compra{
+    height: 2.845rem;
+    width: 9.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 5%;
+}
+
+.img_voltar{
+    height: 1rem;
+    width: 2rem;
+}
+
+.img_suporte{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.img_contrato{
+    height: 27rem;
+    width: 20rem;
+    margin-top: 12%;
+}
+
+.img_cartao{
+    height: 12rem;
+    width: 20rem;
+    margin-top: 5%;
+}
