@@ -31,7 +31,10 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 7rem;
     position: relative;
     
 }
@@ -40,8 +43,8 @@ section{
     margin-left: 50%;
     transform: translateX(-50%);
     margin-bottom: 4rem;
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 15rem;
 
 
 
@@ -78,4 +81,8 @@ footer{
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin-bottom: 20rem;
+}
+
+h2{
+    font-size: 1.5rem;
 }
