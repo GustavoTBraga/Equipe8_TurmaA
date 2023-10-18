@@ -22,7 +22,6 @@ footer{
     bottom: 0%;
     left: 0%;
     right: 0%;
-    border-top: 0.2rem solid black;
     background-color: white;
 }
 
@@ -45,7 +44,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .informacao_2{
@@ -53,7 +52,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .meta{
