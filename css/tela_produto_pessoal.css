@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.icone-voltar {
+    height: 1rem;
+    width: 2rem;
+}
+
+.icone-suporte {
+    height: 2rem;
+    width: 2rem;
+}
+
+.texto {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem 0rem;
+}
+
+.contrato {
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem;
+    margin: 3rem 1.5rem 1rem;
+    height: 11rem;
+    font-size: 2rem;
+}
+
+.botões-decisão {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1.5rem;
+}
+
+.pagamento {
+    border: 0.1rem solid black;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.economia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 2rem;
+    font-size: 2rem;
+}
+
+.destaque-economia {
+    border: 0.1rem solid black;
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

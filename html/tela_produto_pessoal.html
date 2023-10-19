@@ -4,6 +4,8 @@
         <title>Ereon</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/tela_produto_pessoal.css">
     </head>
 
     <body>
@@ -18,24 +20,28 @@
         </header>
 
         <main>
-            <h3>
+            <h3 class="texto">
                 Encontramos o plano ideal para sua empresa!
             </h3>
                         
-            <a href="tela_compra.html">
+            <a class="contrato" href="tela_compra.html">
                 <h4>Produto PRO</h4>
+                <h5>2.700 KW</h5>
                 <h5>3 anos</h5>
-                <h5>3.000 KW</h5>
                 <h5>12,7% de desconto</h5>
             </a>
             
-            <a href="tela_contratos.html">Alterar</a>
+            <section class="botões-decisão">
+                <a class="pagamento" href="tela_contratos.html">Alterar</a>
+                <a class="pagamento" href="tela_compra.html">Finalizar Compra</a>
+            </section>
 
-            <a href="tela_compra.html">Finalizar Compra</a>
-            
-
-            <h2>Enconomia nos proxímos 3 anos</h2>
-            <h2>12,3%</h2>
-            
+            <section class="economia">
+                <h2>Economia nos próximos 3 anos</h2>
+                <div class="destaque-economia">
+                    <h2>12,7%</h2>
+                </div>
+            </section>
         </main>
     </body>
+</html>
