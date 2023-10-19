@@ -57,13 +57,6 @@ footer {
     width: 2rem;
 }
 
-.botões-navegação {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .section-botões {
     height: 2rem;
     width: 2rem;
