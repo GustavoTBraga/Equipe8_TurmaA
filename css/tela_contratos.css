@@ -37,21 +37,21 @@ section {
 }
 
 .compra {
-    border: 0.1rem solid black;
     border-radius: 1.5rem;
     height: 8rem;
     width: 85%;
     margin: 0.5rem;
     font-size: 1.5rem;
     padding: 0.5rem;
+    background-color: rgb(91, 113, 149);
 }
 
 .icone-compra {
     position: absolute;
-    top: 2%;
+    top: 5%;
     right: 2%;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 footer {
@@ -66,6 +66,11 @@ footer {
     padding: 1rem;
     height: 3rem;
     background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .info-compra {
