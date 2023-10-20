@@ -28,11 +28,16 @@ footer{
     margin: 4%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .botao_download{
     height: 2rem;
     width: 20rem;
     margin-top: 2%;
-    background-color: lightgrey;
+    background-color: rgb(91, 113, 149);
     border-radius: 5%;
     display: flex;
     justify-content: center;
@@ -43,7 +48,7 @@ footer{
 .botao_alterar_pagamento{
     height: 3rem;
     width: 9.5rem;
-    background-color: lightgray;
+    background-color: rgb(91, 113, 149);
     border-radius: 5%;
     display: flex;
     justify-content: center;
@@ -57,7 +62,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgrey;
+    background-color: rgb(91, 113, 149);
     border-radius: 5%;
     font-size: 110%;
 }
