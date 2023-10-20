@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: 'IBM Plex Serif', serif;
 }
 header {
     position: fixed;
