@@ -26,11 +26,6 @@ a{
     width: 2rem;
 }
 
-.icone-suporte {
-    height: 2rem;
-    width: 2rem;
-}
-
 .texto {
     font-size: 1.75rem;
     display: flex;
@@ -58,7 +53,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 8rem 1.5rem;
+    margin: 8rem 1.5rem 0rem 1.5rem;
 }
 
 .pagamento {
