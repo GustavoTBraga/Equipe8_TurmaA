@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 header {
