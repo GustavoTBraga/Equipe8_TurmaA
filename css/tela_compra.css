@@ -24,7 +24,7 @@ main{
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 4%;
+    margin-top: 5.1rem;
 }
 
 footer{
@@ -44,7 +44,7 @@ a{
     width: 20rem;
     margin-top: 2%;
     background-color: rgb(91, 113, 149);
-    border-radius: 5%;
+    border-radius: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,11 +55,11 @@ a{
     height: 3rem;
     width: 9.5rem;
     background-color: rgb(91, 113, 149);
-    border-radius: 5%;
+    border-radius: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 110%;
+    font-size: 105%;
 }
 
 .botao_finalizar_compra{
@@ -69,8 +69,8 @@ a{
     justify-content: center;
     align-items: center;
     background-color: rgb(91, 113, 149);
-    border-radius: 5%;
-    font-size: 110%;
+    border-radius: 1.5rem;
+    font-size: 105%;
 }
 
 .img_voltar{
@@ -84,9 +84,9 @@ a{
 }
 
 .img_contrato{
-    height: 27rem;
+    border: 0.2rem solid black;
+    height: 26rem;
     width: 20rem;
-    margin-top: 12%;
 }
 
 .img_cartao{
