@@ -49,8 +49,13 @@ footer{
     bottom: 10%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .a_footer{
-    border: 0.1rem black solid;
+    background-color: rgb(91, 113, 149);
     border-radius: 0.5rem;
     padding: 0.5rem;
     font-size: 1.5rem;
@@ -69,8 +74,10 @@ h2{
 button{
     height: 5rem;
     font-size: larger;
-    border: 0.1rem solid black;
+    background-color: rgb(91, 113, 149);
+    border: 0rem;
     border-radius: 0.5rem;
+    color: white;
 }
 
 .icone-voltar{

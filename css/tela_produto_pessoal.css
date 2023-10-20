@@ -13,6 +13,11 @@ header {
     margin: 1rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .icone-voltar {
     height: 1rem;
     width: 2rem;
@@ -35,10 +40,11 @@ header {
 .contrato {
     display: flex;
     flex-direction: column;
-    border: 0.1rem solid black;
+    background-color: rgb(91, 113, 149);
+    border-radius: 1.5rem;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0.5rem;
+    padding: 1.5rem;
     margin: 3rem 1.5rem 1rem;
     height: 11rem;
     font-size: 2rem;
@@ -53,7 +59,8 @@ header {
 }
 
 .pagamento {
-    border: 0.1rem solid black;
+    background-color: rgb(91, 113, 149);
+    border-radius: 1.5rem;
     height: 2.5rem;
     width: 10rem;
     font-size: 1.3rem;
