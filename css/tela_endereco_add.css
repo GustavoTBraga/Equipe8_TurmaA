@@ -4,21 +4,6 @@ body {
     font-family: 'IBM Plex Serif', serif;
 }
 
-header {
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    left: 0%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 3rem;
-    padding: 1rem;
-    background-color: white;
-    z-index: 1;
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -37,17 +22,6 @@ a{
     width: 15rem;
     margin: 0rem 0rem 3rem 0rem;    
 }
-
-.icone-voltar{
-    height: 1rem;
-    width: 2rem;
-}
-
-.icone-suporte{
-    height: 2rem;
-    width: 2rem;
-}
-
 
 footer{
     display: flex;
