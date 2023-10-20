@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 
+body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
 header {
     position: fixed;
     top: 0%;
