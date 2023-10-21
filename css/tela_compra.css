@@ -63,7 +63,7 @@ a{
 }
 
 .botao_finalizar_compra{
-    height: 2.845rem;
+    height: 3rem;
     width: 9.5rem;
     display: flex;
     justify-content: center;
@@ -79,8 +79,8 @@ a{
 }
 
 .img_suporte{
-    height: 1.7rem;
-    width: 1.7rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .img_contrato{

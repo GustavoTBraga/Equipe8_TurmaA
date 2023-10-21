@@ -63,11 +63,11 @@ a{
 .bemvindo{
     font-size: 2rem;
     display: flex;
-    margin: 2.5rem 2rem 1rem;
+    margin: 5rem 2rem 1rem;
 }
 
 .cadastro{
     display: flex;
-    margin-top: 0.2rem;
+    margin-top: 0.6rem;
     margin-left: 2rem;
 }
