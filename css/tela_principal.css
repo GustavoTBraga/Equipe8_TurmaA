@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 body {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 header{
@@ -17,7 +18,7 @@ main{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 4%;
+    margin: 8.9% 4% 4% 4%;
 }
 
 footer {
@@ -32,6 +33,7 @@ footer {
     padding: 1rem;
     height: 3rem;
     background-color: white;
+    box-shadow: 3rem 3rem 3rem black;
 }
 
 .icones-navegação {
@@ -45,7 +47,9 @@ footer {
 }
 
 h1{
-    font-size: 150%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 0.6rem;
 }
 
 h2{
@@ -53,7 +57,7 @@ h2{
 }
 
 p{
-    font-size: 130%;
+    font-size: 1rem;
 }
 
 .menu{
@@ -68,26 +72,31 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .botoes-grafico{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20%;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.grafico{
+    margin-top: 1.5rem;
 }
 
 button{
     border: 0rem;
     border-radius: 20px;
-    color: white;
-    background-color: rgb(122,150,196);
+    color: black;
+    background-color: #e4ebf7;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 
-button:hover{
+.button_clicado{
+    color: white;
     background-color: rgb(91, 113, 149);
-    transform: scale(1.1);
 }
 
 .informacao_2{
@@ -95,7 +104,7 @@ button:hover{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .meta{
@@ -104,14 +113,25 @@ button:hover{
     align-items: center;
 }
 
-.icone-voltar {
+/*.icone-voltar {
     height: 1rem;
     width: 2rem;
+}*/
+
+.icone-voltar {
+    height: 1.35rem;
+    width: 0.8rem;
 }
 
 .icone-suporte {
     height: 2rem;
     width: 2rem;
+}
+
+.img_sucesso{
+    height: 0.95rem;
+    width: 0.95rem;
+    margin-left: 0.3rem;
 }
 
 .img_grafico{
@@ -120,7 +140,23 @@ button:hover{
     max-height: 100%;
 }
 
-.img_grafico_setor{
-    height: 28%;
-    width: 28%;
+.img_grafico_2{
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+}
+
+.porcentagem{
+    position: absolute;
+    font-size: 1.2rem;
+    left: 50%;
+    top: 42%;
+    transform: translateX(-50%);
+}
+
+.concluido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
 }
