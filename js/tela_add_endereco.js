@@ -11,7 +11,21 @@ const aviso = document.createElement('h4');
 
 var aviso_content = 'Tudo certo!';
 
+if (localStorage.length == 0){
+    localStorage.setItem('CEP', []);
+    localStorage.setItem('Estado', []);
+    localStorage.setItem('Cidade', []);
+    localStorage.setItem('Rua', []);
+    localStorage.setItem('Numero', []);
+}
+
 function Click_concluido(){
+
+    var lista_cep = localStorage.getItem('CEP');
+    var lista_estado = localStorage.getItem('Estado');
+    var lista_cidade = localStorage.getItem('Cidade');
+    var lista_rua = localStorage.getItem('Rua');
+    var lista_numero = localStorage.getItem('Numero');
 
     var cep = input_cep.value;
     var estado = input_estado.value;
@@ -25,9 +39,11 @@ function Click_concluido(){
             main.removeChild(aviso)
         }
 
-        const endereco = {Estado: estado, Cidade: cidade, Rua: rua, Numero: numero};
-
-        localStorage.setItem(cep, endereco)
+        localStorage.setItem('CEP'   , lista_cep    + '*' + cep);
+        localStorage.setItem('Estado', lista_estado + '*' + estado);
+        localStorage.setItem('Cidade', lista_cidade + '*' + cidade);
+        localStorage.setItem('Rua'   , lista_rua    + '*' + rua);
+        localStorage.setItem('Numero', lista_numero + '*' + numero);
 
         input_cep.value = ''
         input_estado.value = ''

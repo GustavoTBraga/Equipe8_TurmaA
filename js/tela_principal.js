@@ -2,6 +2,8 @@ const ctx = document.getElementById('grafico').getContext("2d");
 const ctx_2 = document.getElementById('myChart_2');
 const porcentagem = document.querySelector('.porcentagem');
 
+console.log(localStorage)
+
 // Valores aleatórios dos gráfiocs -------------------------------------------------------
 
 // Eixo X 
@@ -125,6 +127,22 @@ function Criagraficorosca(Y) {
 }
 
 // --------------------------------------------------------------------------
+
+const main = document.querySelector('main')
+
+if (localStorage.length == 0){
+  localStorage.setItem('CEP', []);
+  localStorage.setItem('Estado', []);
+  localStorage.setItem('Cidade', []);
+  localStorage.setItem('Rua', []);
+  localStorage.setItem('Numero', []);
+}
+
+var lista_cep = localStorage.getItem('CEP')
+
+if (lista_cep.length<2){
+  window.location.replace("../html/tela_principal_sem_end.html");
+}
 
 let btn_dia = document.querySelector('#btn_dia')
 
