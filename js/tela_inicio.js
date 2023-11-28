@@ -6,4 +6,4 @@ function Click_cadastro(){
     console.log(localStorage)
 }
 
-btn_novo_cadastro.addEventListener('click', Click_cadastro)
+btn_novo_cadastro.addEventListener('click', Click_cadastro) 
