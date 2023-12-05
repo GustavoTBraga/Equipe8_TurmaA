@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
     const btn_novo_cadastro = document.querySelector('.cadastro')
 
     function Click_cadastro(){
