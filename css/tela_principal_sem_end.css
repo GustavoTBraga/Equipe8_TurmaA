@@ -5,14 +5,34 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-header{
+/* ----------------- Header ----------------- */
+
+header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
-    margin: 1rem;
+    height: 1.5rem;
+    padding: 1rem;
+    background-color: white;
+    z-index: 1;
 }
+
+.icone-voltar {
+    height: 1.35rem;
+    width: 0.8rem;
+}
+
+.icone-suporte {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* ----------------- Main ----------------- */
 
 main{
     position: relative;
@@ -20,8 +40,26 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 40% 4% 4% 4%;
+    margin: 50% 4% 4% 4%;
 }
+
+h2{
+    font-size: 1.1rem;
+}
+
+p{
+    font-size: 0.7rem;
+}
+
+.img_nuvem{
+    height: 7rem;
+    width: 7rem;
+    margin-left: 0.3rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ----------------- Footer ----------------- */
 
 footer {
     display: flex;
@@ -32,51 +70,17 @@ footer {
     right: 0%;
     left: 0%;
     bottom: -0.1%;
-    padding: 1rem;
-    height: 3rem;
+    padding: 1rem 2.5rem;
+    height: 0.9rem;
     background-color: white;
-    box-shadow: 3rem 3rem 3rem black;
 }
 
 .icones-navegação {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .section-botões {
-    height: 2rem;
-    width: 2rem;
-}
-
-h2{
-    font-size: 150%;
-}
-
-p{
-    font-size: 1rem;
-}
-
-.icone-voltar {
-    height: 1.35rem;
-    width: 0.8rem;
-}
-
-.icone-suporte {
-    height: 2rem;
-    width: 2rem;
-}
-
-.img_nuvem{
-    height: 12rem;
-    width: 12rem;
-    margin-left: 0.3rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.botao-add-end {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: blue;
+    height: 1.5rem;
+    width: 1.5rem;
 }

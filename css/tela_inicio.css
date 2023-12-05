@@ -5,26 +5,23 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: row; 
-    margin-top: 5.5rem;
+    margin-top: 4rem;
     margin-left: 2rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .Ereon{
-    max-width: 10rem;
-    max-height: 6rem;
+    max-width: 8rem;
+    max-height: 4rem;
 }
 
 .entrar{
     box-sizing: content-box;
-    width: 4rem;
+    width: 2.5rem;
     height: 1.5rem;
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -39,17 +36,16 @@ main {
 a{
     text-decoration: none;
     color: black;
-    font-size: 1.15rem;
 }
 
 .bemvindo{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
-    margin: 2.5rem 2rem 1rem;
+    margin: 5.5rem 2rem 1rem;
 }
 
 .cadastro{
-    display: flex;
+    font-size: 0.8rem;
     margin-top: 0.9rem;
     margin-left: 2rem;
 }

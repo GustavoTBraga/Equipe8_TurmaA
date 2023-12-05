@@ -5,6 +5,8 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+/* ----------------- Header ----------------- */
+
 header {
     position: fixed;
     top: 0%;
@@ -14,26 +16,28 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
+    height: 1.5rem;
     padding: 1rem;
     background-color: white;
     z-index: 1;
 }
 
-.icone-voltar{
-    height: 1rem;
-    width: 2rem;
+.icone-voltar {
+    height: 1.35rem;
+    width: 0.8rem;
 }
 
-.icone-suporte{
-    height: 2rem;
-    width: 2rem;
+.icone-suporte {
+    height: 1.5rem;
+    width: 1.5rem;
 }
+
+/* ----------------- Main ----------------- */
 
 main{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
     position: fixed;
     right: 0%;
     left: 0%;
@@ -46,7 +50,6 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     list-style: disc;
     font-size: 1.2rem;
 }
@@ -57,7 +60,7 @@ li{
 
 h2{
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 0rem 0rem 2.5rem 0rem;
 }
 
@@ -68,13 +71,14 @@ a{
 
 .botao_add_end{
     background-color: rgb(91, 113, 149);
-    height: 3rem;
-    width: 20rem;
+    padding: 0.5rem;
+    height: 1.5rem;
+    width: 15rem;
     border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 footer{

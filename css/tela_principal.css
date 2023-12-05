@@ -5,21 +5,43 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-header{
+/* ----------------- Header ----------------- */
+
+header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.5rem;
+    padding: 1rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.icone-voltar {
+    height: 1.35rem;
+    width: 0.8rem;
+}
+
+.icone-suporte {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/*header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 3rem;
     margin: 1rem;
-}
+}*/
 
-main{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 8.9% 4% 4% 4%;
-}
+/* ----------------- Footer ----------------- */
 
 footer {
     display: flex;
@@ -30,20 +52,28 @@ footer {
     right: 0%;
     left: 0%;
     bottom: -0.1%;
-    padding: 1rem;
-    height: 3rem;
+    padding: 1rem 2.5rem;
+    height: 0.9rem;
     background-color: white;
-    box-shadow: 3rem 3rem 3rem black;
 }
 
 .icones-navegação {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .section-botões {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* ----------------- Main ----------------- */
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 16% 4% 20% 4%;
 }
 
 h1{
@@ -58,6 +88,27 @@ h2{
 
 p{
     font-size: 1rem;
+}
+
+.div-seletor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122,150,196);
+    color: white;
+    border-radius: 1.5rem;
+    width: 15rem;
+    border: 0rem;
+    padding: 0.5rem;
+    appearance: none;
+    text-align: center;
 }
 
 .menu{
@@ -117,16 +168,6 @@ button{
     height: 1rem;
     width: 2rem;
 }*/
-
-.icone-voltar {
-    height: 1.35rem;
-    width: 0.8rem;
-}
-
-.icone-suporte {
-    height: 2rem;
-    width: 2rem;
-}
 
 .img_sucesso{
     height: 0.95rem;

@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const main = document.querySelector('main');
 
+    const footer = document.querySelector('footer');
+
     const aviso = document.createElement('h4');
 
     var aviso_content = 'Tudo certo!';
@@ -37,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (cep!='' & estado!='' & cidade!='' & rua!='' & numero!=''){
 
             if (aviso_content == 'Preencha todos os campos para adicionar o endereço'){
-                main.removeChild(aviso)
+                footer.removeChild(aviso)
             }
 
             localStorage.setItem('CEP'   , lista_cep    + '*' + cep);
@@ -59,12 +61,21 @@ document.addEventListener('DOMContentLoaded', function() {
         else{
             aviso_content = 'Preencha todos os campos para adicionar o endereço';
             aviso.innerHTML = aviso_content;
-            main.appendChild(aviso);
-
+            /*main.insertBefore(aviso, main.children[0])*/
+            footer.appendChild(aviso);
+        
+            aviso.style.position = 'fixed';
+            aviso.style.zIndex = '2';
+            aviso.style.top = '0.3rem';
             aviso.style.textAlign = 'center';
-            aviso.style.paddingTop = '2rem';
-            aviso.style.fontSize = '1.2rem';
-            aviso.style.color = '#f70707';
+            aviso.style.marginTop = '1rem';
+            aviso.style.fontSize = '1rem';
+            aviso.style.backgroundColor = '#ad1313';
+            aviso.style.color = '#fafafa';
+            aviso.style.padding = '0.4rem';
+            aviso.style.borderRadius = '1.5rem';
+            aviso.style.width = '15rem';
+            aviso.style.fontWeight = 'bold';
         }
     }
 

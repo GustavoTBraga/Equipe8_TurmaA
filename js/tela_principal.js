@@ -129,6 +129,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // --------------------------------------------------------------------------
 
+  const select_end = document.querySelector('select');
+
+  var lista_rua = []
+  var i = 1;
+
+  if (localStorage.length > 0){
+      const rua = localStorage.getItem('Rua')
+
+      lista_rua = rua.split('*');
+  }
+
+  while (i < lista_rua.length){
+      var end = document.createElement('option');
+      end.innerHTML = lista_rua[i];
+      select_end.appendChild(end)
+      i++
+  }
+
+  // --------------------------------------------------------------------------
+
   const main = document.querySelector('main')
 
   if (localStorage.length == 0){
