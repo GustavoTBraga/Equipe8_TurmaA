@@ -1,4 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+    window.onload = function() {
+        document.body.addEventListener('touchstart', function() {
+        // Solicita o modo de tela cheia
+        document.documentElement.requestFullscreen();
+        });
+    };
+
+
+
     const btn_novo_cadastro = document.querySelector('.cadastro')
 
     function Click_cadastro(){
