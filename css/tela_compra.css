@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 body {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
+
+/* ----------------- Header ----------------- */
 
 header {
     position: fixed;
@@ -13,18 +16,30 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
+    height: 1.5rem;
     padding: 1rem;
     background-color: white;
     z-index: 1;
 }
+
+.icone-voltar {
+    height: 1.35rem;
+    width: 0.8rem;
+}
+
+.icone-suporte {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* ----------------- Main ----------------- */
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 5.1rem;
+    margin-top: 3.55rem;
 }
 
 footer{
@@ -40,58 +55,51 @@ a{
 }
 
 .botao_download{
-    height: 2rem;
-    width: 20rem;
+    height: 1.5rem;
+    width: 17rem;
     margin-top: 2%;
     background-color: rgb(91, 113, 149);
     border-radius: 1.5rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 125%;
+    font-size: 1rem;
 }
 
 .botao_alterar_pagamento{
-    height: 3rem;
+    height: 1.5rem;
     width: 9.5rem;
     background-color: rgb(91, 113, 149);
     border-radius: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    padding: 0.5rem;
 }
 
 .botao_finalizar_compra{
-    height: 3rem;
+    padding: 0.5rem;
+    height: 1.5rem;
     width: 9.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(91, 113, 149);
     border-radius: 1.5rem;
-    font-size: 0.9rem;
-}
-
-.img_voltar{
-    height: 1rem;
-    width: 2rem;
-}
-
-.img_suporte{
-    height: 2rem;
-    width: 2rem;
+    font-size: 1rem;
 }
 
 .img_contrato{
     border: 0.2rem solid black;
     border-radius: 1.5rem;
-    height: 26rem;
-    width: 20rem;
+    height: 20rem;
+    width: 17rem;
 }
 
 .img_cartao{
-    height: 12rem;
-    width: 20rem;
+    height: 8rem;
+    width: 13.5rem;
     margin-top: 5%;
 }
