@@ -4,8 +4,10 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
+
+/* ----------------- Header ----------------- */
 
 header {
     position: fixed;
@@ -22,40 +24,17 @@ header {
     z-index: 1;
 }
 
-main {
-    display: flex;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
+.icone-voltar {
+    height: 1.35rem;
+    width: 0.8rem;
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
+.icone-suporte {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
-.compra {
-    border-radius: 1.5rem;
-    height: 8rem;
-    width: 85%;
-    margin: 0.5rem;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    background-color: rgb(91, 113, 149);
-}
-
-.icone-compra {
-    position: absolute;
-    top: 5%;
-    right: 2%;
-    height: 2rem;
-    width: 2rem;
-}
+/* ----------------- Footer ----------------- */
 
 footer {
     display: flex;
@@ -71,35 +50,6 @@ footer {
     background-color: white;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.info-compra {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-h4{
-    margin-bottom: 1rem;
-}
-
-h5{
-    margin-bottom: 1rem;
-}
-
-.icone-voltar {
-    height: 1rem;
-    width: 2rem;
-}
-
-.icone-suporte {
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
 .icones-navegação {
     height: 1.5rem;
     width: 1.5rem;
@@ -109,3 +59,168 @@ h5{
     height: 1.5rem;
     width: 1.5rem;
 }
+
+/* ----------------- Main ----------------- */
+
+.icone-compra {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    height: 2rem;
+    width: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.6rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.compra{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 113, 149);
+    border-radius: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 1.5rem;
+    width: 100%;
+    height: 6rem;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-Weight: bold;
+}
+
+p{
+    font-size: 0.8rem;
+    font-Weight: bold;
+}
+
+.desconto{
+    background-color: #ad1313;
+    border-radius: 0.8rem;
+    padding: 0.3rem;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+
+.img_energia{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+.info-compra{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+.info-KW{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 6rem;
+    /*background-color: #a9b31d;*/
+    /*border: 0.1rem solid #fafafa;*/
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.info-Tempo{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 6rem;
+    /*background-color: #0a8a01;*/
+    /*border: 0.1rem solid #fafafa;*/
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 1.5rem;
+}
+
+/*main {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.compra {
+    width: 100%;
+    height: 6rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(91, 113, 149);
+    border-radius: 1.5rem;
+    position: relative;
+}
+
+.icone-compra {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.info-compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*//*
+}
+
+h4{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+h5{
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}*/

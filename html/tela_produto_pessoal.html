@@ -6,36 +6,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/tela_produto_pessoal.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" type="module"></script>
+        <script src="../js/tela_produto_pessoal.js" type="module"></script>
     </head>
 
     <body>
         <header>
             <a href="tela_contratos.html">
-                <img class="icone-voltar" src="../img/img_voltar.png" alt="voltar">
+                <img class="icone-voltar" src="../img/img_voltarb.png" alt="voltar">
             </a>
         </header>
 
         <main>
-            <h3 class="texto">
+            <h1>
                 Encontramos o plano ideal para sua empresa!
-            </h3>
+            </h1>
                         
-            <a class="contrato" href="tela_compra.html">
-                <h4>Produto PRO</h4>
-                <h5>2.700 KW</h5>
-                <h5>3 anos</h5>
-                <h5>12,7% de desconto</h5>
+            <a class="compra" href="tela_compra.html">
+                <h4>Produto PRO V.01</h4>
+                <div class="info-compra">
+                    <div class="info-Tempo"><img src="../img/img_Tempo.png" alt="#" class="img_energia"><h5>3 anos</h5></div>
+                    <div class="info-KW"><img src="../img/img_energia.png" alt="#" class="img_energia"><h5>450KW</h5></div>
+                </div>
+                <div class="desconto"><p>12,7% off</p></div>
             </a>
 
             <section class="economia">
-                <h2>Economia nos próximos 3 anos</h2>
-                <img class="img_grafico_setor" src="../img/img_grafico_setor.png" alt="grafico economia">
+                <h4>Economia nos próximos 3 anos</h4>
+                <div class="img_grafico_2">
+                    <canvas id="myChart_2"></canvas>
+                    <h3 class="porcentagem">76,4%</h3>
+                </div>
             </section>
             
-            <nav class="botões-decisão">
-                <a class="pagamento" href="tela_contratos.html">Alterar</a>
-                <a class="pagamento" href="tela_compra.html">Finalizar Compra</a>
-            </nav>
         </main>
     </body>
 </html>
