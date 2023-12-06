@@ -153,3 +153,10 @@ p{
     top: 42%;
     transform: translateX(-50%);
 }
+
+.preco{
+    position: absolute;
+    bottom: 0.35rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
